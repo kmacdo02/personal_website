@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond:400,400i');
+/*Garamond Regular and Italic imported*/
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400');
+/*Garamond with light and regular*/
+
+.hello {
+    background-color: #f7a7a2;
+    height: 1000px;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+nav header article footer aside {
+  display: block;
+}
+
+/*Styling for navigation*/
+nav {
+    float: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: block;
+    background-color: #fde6e0;
+    text-align: center;
+    padding: 10px 16px;
+    margin-top: 0px;
+    z-index: 9;
+}
+
+ul {
+    list-style: none;
+}
+
+nav ul>li {
+    float: left;
+    font-size: 150%;
+    padding: 0px 50px 15px 0px;
+    color: #f7a7a2;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f7a7a2;
+    font-family: 'Cormorant Garamond', Garamond, serif;
+    font-weight: 300;
+    line-height: 200%;
+    transition: 0.2s;
+    text-transform: uppercase;
+}
+
+nav a:last-of-type {
+  float: clear;
+}
+
+nav a:hover {
+  color: #f15c52;
+}
+
+nav a:active {
+  color: floralwhite;
+}
+
+.aboutme {
+    width: 550px;
+    margin-left: 175px;
+    position: absolute;
+    top: 200px;
+}
+
+.aboutme p {
+    font-family: 'Cormorant Garamond', Garamond, serif;
+    font-weight: 300;
+    color: floralwhite;
+    font-size: 145%;
+    line-height: 155%;
+    text-align: justify;
+    margin-left: 125px;
+}
+
+.aboutme img {
+    width: 350px;
+}
